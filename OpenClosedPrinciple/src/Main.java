@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
 
-        Invoice indiaInvoice = new IndiaInvoice();
-        indiaInvoice.printInvoice();
+      Invoice invoice = InvoiceFactory.getInvoice("India");
+      Invoice invoice1 = InvoiceFactory.getInvoice("Germany");
 
-        Invoice germanyInvoice = new GermanyInvoice();
-        germanyInvoice.printInvoice();
+      invoice.printInvoice();
+      invoice1.printInvoice();
 
 
     }
