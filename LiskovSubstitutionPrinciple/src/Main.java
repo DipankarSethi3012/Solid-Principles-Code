@@ -1,13 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        Animal lion = new Lion();
-        Bird sparrow = new Sparrow();
+       Bird animal = new Bird();
+       animal.eat();
+       animal.fly();
 
-//        lion.eat();
-        lion.run();
-
-        sparrow.eat();
-        sparrow.fly();
+       
     }
 }
 
