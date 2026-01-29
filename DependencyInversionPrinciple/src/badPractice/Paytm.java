@@ -1,6 +1,6 @@
 package badPractice;
 
-public class Paytm extends Payment{
+public class Paytm extends PaymentService {
     public void makePayment() {
 
     }

@@ -1,7 +1,7 @@
 package badPractice;
 
-public class Payment {
-    Payment paytm = new Payment();
+public class PaymentService {
+    Paytm paytm = new Paytm();
     public void makePayment() {
         paytm.makePayment();
     }
